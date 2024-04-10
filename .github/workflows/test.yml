@@ -136,7 +136,7 @@ jobs:
           fi
       - name: Upload App To Artifact
         uses: actions/upload-artifact@v3
-        if: ${{ env.commit }}
+        #if: ${{ env.commit }}
         with:
           name: ${{ matrix.userName }}-${{ matrix.repoName }}
           path: |
