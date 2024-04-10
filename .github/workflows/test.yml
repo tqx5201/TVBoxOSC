@@ -1,8 +1,8 @@
-name: Test
+name: TVBOX自动打包
 
 on:
   schedule:
-    - cron: 59 */8 * * *
+    - cron: 0 0 * * *
   workflow_dispatch:
     inputs:
       rebuild:
