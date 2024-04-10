@@ -33,7 +33,8 @@ jobs:
             branchName: main
           - userName: FongMi
             repoName: TV
-            branchName: release
+            branchName: fongmi
+            #release
     steps:
       - name: Checkout
         uses: actions/checkout@v4
